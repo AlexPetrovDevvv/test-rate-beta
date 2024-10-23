@@ -43,7 +43,7 @@ import { ref, onMounted } from 'vue';
 import YearList from './entities/Year/YearList.vue';
 import SectionNavigation from './entities/Sections/SectionsNavigation/SectionsNavigation.vue';
 import Button from './shared/Button/Button.vue';
-import NominationsTable from './entities/Nominations/NominationsTable/NominationsTable.vue';
+import NominationsTable from './entities/Nominations/NominationsTable/nominationsTable.vue';
 import NominationsFilter from './entities/Nominations/nominationsFilter.vue';
 import { usePageStore } from './store/page.js';
 const pageStore = usePageStore()
