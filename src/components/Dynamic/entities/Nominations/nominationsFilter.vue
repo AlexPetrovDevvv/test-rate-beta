@@ -62,8 +62,7 @@ const nomination = defineModel("nomination", {
     &:hover::after, &:focus-visible::after
         content: ''
 
-.dynamic-template_paw
-        cursor: zoom-in
+        
 
 .nominations-filter
     margin-top: 40px
